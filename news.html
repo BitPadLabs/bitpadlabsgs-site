@@ -8,10 +8,10 @@ title: News
     <h1 class="section-title">News & Updates</h1>
     <p class="section-subtitle">Latest announcements from BitPadLabs Government Solutions</p>
     
-    <div style="max-width: 900px; margin: 0 auto;">
+    <div style="max-width: 900px; margin: 0 auto; padding-bottom: 3rem;">
       {% if site.posts.size > 0 %}
         {% for post in site.posts %}
-        <div class="content-block card" style="padding: 2rem; margin-bottom: 2rem;">
+        <div class="content-block card" style="padding: 2rem; margin-bottom: 3rem;">
           <h2><a href="{{ post.url | relative_url }}" style="color: #0C3EA4;">{{ post.title }}</a></h2>
           <p style="color: #59675B; margin-bottom: 1rem;">{{ post.date | date: "%B %d, %Y" }}</p>
           <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
