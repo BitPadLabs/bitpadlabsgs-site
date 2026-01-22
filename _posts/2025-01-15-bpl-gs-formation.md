@@ -4,7 +4,7 @@ title: "BitPadLabs Government Solutions LLC Formed as SDVOSB"
 date: 2025-01-15
 ---
 
-We are pleased to announce the formation of **BitPadLabs Government Solutions LLC (BPL-GS)**, a Service-Disabled Veteran-Owned Small Business dedicated to serving federal agencies with modern technology solutions.
+We are pleased to announce the formation of **BitPadLabs Government Solutions LLC (BPL-GS)**, a Service-Disabled Veteran-Owned Small Business dedicated to serving Veterans Affairs and SDVOSB set-aside contracts with modern technology solutions.
 
 ## Veteran-Led Excellence
 
@@ -26,7 +26,7 @@ Our mission is to modernize federal technology systems with a focus on security,
 
 ## SDVOSB Certification
 
-BPL-GS is certified as a Service-Disabled Veteran-Owned Small Business through the Small Business Administration, enabling us to support federal agencies through SDVOSB set-aside contracts and partnerships.
+BPL-GS is certified as a Service-Disabled Veteran-Owned Small Business through the Small Business Administration, enabling us to support Veterans Affairs and pursue SDVOSB set-aside contracting opportunities.
 
 ## Looking Ahead
 
