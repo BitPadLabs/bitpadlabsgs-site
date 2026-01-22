@@ -33,4 +33,3 @@ exclude:
   - vendor/ruby/
   - README.md
   - LICENSE
-  - "*.md"
