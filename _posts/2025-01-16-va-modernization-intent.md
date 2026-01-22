@@ -14,17 +14,17 @@ As veteran leaders ourselves, we understand the importance of reliable systems t
 
 ## Enterprise Platform Capabilities
 
-BPL-GS brings rare, differentiating capabilities in federal cloud platform governance, enterprise observability, and source control modernization at massive scale—capabilities most contractors cannot provide:
+BPL-GS brings rare, differentiating capabilities in federal cloud platform governance, enterprise observability, and source control modernization at massive scale. These are capabilities most contractors cannot provide:
 
 **Enterprise Cloud Platforms:** Experience designing AWS GovCloud multi-account architectures from scratch with NIST 800-53 security baselines, ATO control inheritance models, and Technology Business Management (TBM) cost attribution for mission-critical federal systems.
 
 **Enterprise Observability Services:** Proven track record establishing enterprise-wide observability governance in FedRAMP High environments with TBM-aligned tagging taxonomy, Terraform-enforced infrastructure-as-code, automated sensitive data quarantine (PII/PHI/CUI), and multi-vendor accountability frameworks.
 
-**GitHub Enterprise at Scale:** Led source control consolidation across 1,500+ repositories at SEC, 1,000+ repositories at CMS, and enterprise-wide adoption at OPM—migrating from fragmented legacy tools (Subversion, SourceSafe, Bitbucket, Azure DevOps, GitLab) to unified GitHub Enterprise with Advanced Security, automated secret scanning, branch protection enforcement, and compliance-ready audit trails.
+**GitHub Enterprise at Scale:** Led source control consolidation across 1,500+ repositories at SEC, 1,000+ repositories at CMS, and enterprise-wide adoption at OPM, migrating from fragmented legacy tools (Subversion, SourceSafe, Bitbucket, Azure DevOps, GitLab) to unified GitHub Enterprise with Advanced Security, automated secret scanning, branch protection enforcement, and compliance-ready audit trails.
 
 **Multi-Vendor Coordination:** Experience coordinating enterprise standards adoption across 5+ vendor teams in mission-critical federal environments, establishing unified branching strategies, CI/CD patterns, and platform governance as vendor-neutral authority.
 
-These are not application-level capabilities—this is the expertise required to build and govern platforms that enable mission-critical federal modernization at scale.
+These are not application-level capabilities. This is the expertise required to build and govern platforms that enable mission-critical federal modernization at scale.
 
 ## Our VA Focus Areas
 
