@@ -1,0 +1,39 @@
+- name: Ryan Burke
+  role: CEO, Managing Member
+  github: Severswoed
+  image: ryan.jpeg
+  bio: >-
+    Chief Executive Officer and Managing Member, leading BitPadLabs Government Solutions
+    with focus on strategic growth and Veterans Affairs contracting.
+
+- name: Christopher Inman
+  role: Chief Technology Officer
+  github: Severswoed
+  image: chris.jpg
+  bio: >-
+    Chief Technology Officer with two decades of federal DevSecOps, cloud modernization,
+    and Agile transformation leadership across OPM, CMS, FSA, and SEC.
+
+- name: Jaime Inman
+  role: Chief Operating & Financial Officer
+  github: jaimeinman
+  image: jaime5.jpeg
+  bio: >-
+    Chief Operating & Financial Officer, overseeing operations, finance, and
+    organizational effectiveness for sustainable growth.
+
+- name: Hannah Cassels
+  role: Chief Product Officer
+  github: hannahcassels
+  image: hannah.jpg
+  bio: >-
+    Chief Product Officer, driving product strategy and user-centered design
+    to deliver exceptional solutions.
+
+- name: Melanie Amerson
+  role: Chief Strategy Officer
+  github: melanieamerson
+  image: melanie2.jpeg
+  bio: >-
+    Chief Strategy Officer, shaping long-term vision and market positioning
+    for government contracting success.

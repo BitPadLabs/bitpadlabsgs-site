@@ -1,0 +1,62 @@
+// BitPadLabs Government Solutions Color Palette
+// Based on blue & yellow poison dart frog theme
+
+// Primary Brand Colors
+$primary-yellow: #EBCB2A;      // Title, Primary Button, Heading 4, Warning
+$primary-blue: #0C3EA4;        // Subtitle, Heading 1, Secondary Button
+$navy-slate: #172030;          // Heading 2, Normal Text, Dark Background, Primary Button Text
+$sage-gray: #59675B;           // Heading 3, Secondary Text
+$silver-sage: #ACB8AF;         // Heading 5, Divider, Border
+$off-white: #FCFCFC;           // Light Background, Secondary Button Text
+
+// State Colors
+$success-green: #4CAF50;       // Success states
+$error-red: #B91C1C;           // Error states
+
+// Additional Semantic Colors
+$dark-background: $navy-slate;
+$light-background: $off-white;
+$text-primary: $navy-slate;
+$text-secondary: $sage-gray;
+$border-color: $silver-sage;
+
+// Typography
+$font-family-heading: 'Poppins', 'Montserrat', sans-serif;
+$font-family-body: 'Helvetica Neue', Arial, sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.6;
+
+// Spacing
+$spacing-unit: 30px;
+$spacing-xs: $spacing-unit * 0.25;  // 7.5px
+$spacing-sm: $spacing-unit * 0.5;   // 15px
+$spacing-md: $spacing-unit;         // 30px
+$spacing-lg: $spacing-unit * 1.5;   // 45px
+$spacing-xl: $spacing-unit * 2;     // 60px
+
+// Breakpoints
+$breakpoint-xs: 375px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Z-index
+$z-index-header: 100;
+$z-index-overlay: 90;
+$z-index-dropdown: 80;
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-base: 0.3s ease;
+$transition-slow: 0.5s ease;
+
+// Shadows
+$shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 10px rgba(0, 0, 0, 0.12);
+$shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+// Borders
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;

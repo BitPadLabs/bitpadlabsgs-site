@@ -1,0 +1,36 @@
+title: BitPadLabs Government Solutions
+email: info@bitpadlabsgs.com
+description: >-
+  Service-Disabled Veteran-Owned Small Business providing federal modernization,
+  DevSecOps, cloud migration, and SAFe training services with a focus on
+  Veterans Affairs contracting.
+baseurl: ""
+url: "https://bitpadlabsgs.com"
+
+# Contracting Details
+duns: ""
+uei: ""
+cage: ""
+
+# Social
+github_username: BitPadLabs
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - "*.md"

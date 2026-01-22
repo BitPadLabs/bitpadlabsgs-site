@@ -1,0 +1,60 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="{{ "/assets/images/frog-trimmed.png" | relative_url }}" alt="BitPadLabs GS Logo" style="height: 80px;">
+        <p class="tagline">Veteran-led. Mission-driven.</p>
+      </div>
+      
+      <div class="footer-links">
+        <div class="link-group">
+          <h4>BitPadLabs GS</h4>
+          <ul>
+            <li><a href="{{ site.baseurl }}/about">About Us</a></li>
+            <li><a href="{{ site.baseurl }}/team">Our Team</a></li>
+            <li><a href="{{ site.baseurl }}/services">Services</a></li>
+            <li><a href="{{ site.baseurl }}/capabilities">Capabilities</a></li>
+            <li><a href="{{ site.baseurl }}/news">News</a></li>
+            <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="link-group">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="{{ site.baseurl }}/terms">Terms</a></li>
+            <li><a href="{{ site.baseurl }}/privacy">Privacy</a></li>
+          </ul>
+          <div class="contracting-details" style="margin-top: 1.5em;">
+            <h4>Contracting</h4>
+            <ul style="list-style: none; padding-left: 0;">
+              <li>DUNS: {{ site.duns }}</li>
+              <li>UEI: {{ site.uei }}</li>
+              <li>CAGE: {{ site.cage }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-team">
+        <h4>NAICS Codes</h4>
+        <div class="team-members">
+          {% for code in site.data.naics %}
+          <div class="team-member">
+            {{ code.code }} <br>
+            <span class="team-member-desc">{{ code.desc }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div>
+        <p style="margin-bottom: 0.25rem;">&copy; {{ site.time | date: '%Y' }} BitPadLabs Government Solutions LLC — Service-Disabled Veteran-Owned Small Business. All rights reserved.</p>
+        <p style="margin-top: 0;">Address pending</p>
+      </div>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,195 @@
+@import "variables";
+
+// Reset & base styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-body;
+  line-height: $line-height-base;
+  color: $text-primary;
+  background-color: $light-background;
+  overflow-x: hidden;
+}
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: $spacing-sm;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: $primary-blue;
+}
+
+h2 {
+  font-size: 2rem;
+  color: $navy-slate;
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: $sage-gray;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: $primary-yellow;
+}
+
+h5 {
+  font-size: 1.25rem;
+  color: $silver-sage;
+}
+
+h6 {
+  font-size: 1rem;
+  color: $text-primary;
+}
+
+p {
+  margin-bottom: $spacing-md;
+}
+
+a {
+  color: $primary-blue;
+  text-decoration: none;
+  transition: color $transition-fast;
+  
+  &:hover {
+    color: $primary-yellow;
+  }
+}
+
+// Utility classes
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacing-md;
+  
+  @media (max-width: $breakpoint-sm) {
+    padding: 0 $spacing-sm;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Sections
+.section {
+  padding: $spacing-xl 0;
+  
+  @media (max-width: $breakpoint-md) {
+    padding: $spacing-lg 0;
+  }
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: $spacing-sm;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: $text-secondary;
+  margin-bottom: $spacing-lg;
+  font-size: 1.25rem;
+}
+
+// Cards
+.card {
+  background-color: white;
+  border-radius: $border-radius-md;
+  box-shadow: $shadow-md;
+  transition: transform $transition-base, box-shadow $transition-base;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-lg;
+  }
+}
+
+.card-body {
+  padding: $spacing-md;
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: $spacing-sm $spacing-md;
+  border-radius: $border-radius-sm;
+  font-family: $font-family-heading;
+  font-weight: 500;
+  text-align: center;
+  transition: all $transition-fast;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: $primary-yellow;
+  color: $navy-slate;
+  
+  &:hover {
+    background-color: darken($primary-yellow, 10%);
+    color: $navy-slate;
+  }
+}
+
+.btn-secondary {
+  background-color: $primary-blue;
+  color: $off-white;
+  
+  &:hover {
+    background-color: darken($primary-blue, 10%);
+    color: $off-white;
+  }
+}
+
+.btn-third {
+  background-color: transparent;
+  color: $primary-blue;
+  border: 2px solid $primary-blue;
+  
+  &:hover {
+    background-color: $primary-blue;
+    color: $off-white;
+  }
+}
+
+.btn-large {
+  padding: $spacing-sm $spacing-lg;
+  font-size: 1.125rem;
+}
+
+// Content block
+.content-block {
+  background: white;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-md;
+  padding: $spacing-lg $spacing-md;
+  margin-bottom: $spacing-lg;
+}

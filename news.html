@@ -1,0 +1,28 @@
+---
+layout: default
+title: News
+---
+
+<section class="section">
+  <div class="container">
+    <h1 class="section-title">News & Updates</h1>
+    <p class="section-subtitle">Latest announcements from BitPadLabs Government Solutions</p>
+    
+    <div style="max-width: 900px; margin: 0 auto;">
+      {% if site.posts.size > 0 %}
+        {% for post in site.posts %}
+        <div class="content-block">
+          <h2><a href="{{ post.url | relative_url }}" style="color: #0C3EA4;">{{ post.title }}</a></h2>
+          <p style="color: #59675B; margin-bottom: 1rem;">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
+          <a href="{{ post.url | relative_url }}" class="btn btn-third">Read More</a>
+        </div>
+        {% endfor %}
+      {% else %}
+        <div class="content-block text-center">
+          <p>Stay tuned for updates and announcements from BitPadLabs Government Solutions.</p>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
