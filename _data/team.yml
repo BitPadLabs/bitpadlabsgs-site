@@ -14,6 +14,14 @@
     Chief Technology Officer with two decades of federal DevSecOps, cloud modernization,
     and Agile transformation leadership across OPM, CMS, FSA, and SEC.
 
+- name: Melanie Amerson
+  role: Chief Strategy Officer
+  github: melanieamerson
+  image: melanie2.jpeg
+  bio: >-
+    Chief Strategy Officer, shaping long-term vision and market positioning
+    for government contracting success.
+
 - name: Jaime Inman
   role: Chief Operating & Financial Officer
   github: jaimeinman
@@ -23,17 +31,3 @@
     organizational effectiveness for sustainable growth.
 
 - name: Hannah Cassels
-  role: Chief Product Officer
-  github: hannahcassels
-  image: hannah.jpg
-  bio: >-
-    Chief Product Officer, driving product strategy and user-centered design
-    to deliver exceptional solutions.
-
-- name: Melanie Amerson
-  role: Chief Strategy Officer
-  github: melanieamerson
-  image: melanie2.jpeg
-  bio: >-
-    Chief Strategy Officer, shaping long-term vision and market positioning
-    for government contracting success.
