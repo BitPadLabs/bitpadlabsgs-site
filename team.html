@@ -12,7 +12,7 @@ title: Meet Our Team
       {% for member in site.data.team %}
         <div class="team-card card">
           <div class="team-image">
-            <img src="{{ site.baseurl }}/assets/images/team/{{ member.image }}" alt="{{ member.name }}">
+            <img src="{{ site.baseurl }}/assets/images/team/{{ member.image }}" alt="{{ member.name }}" {% if member.name == "Jaime Inman" %}style="object-position: center 25%;"{% endif %}>
           </div>
           <div class="team-info">
             <h3>{{ member.name }}</h3>
