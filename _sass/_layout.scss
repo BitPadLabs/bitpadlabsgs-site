@@ -280,6 +280,10 @@
           display: inline-block;
           color: $primary-blue;
           
+          img {
+            border-radius: 0;
+          }
+          
           &:hover {
             color: $primary-yellow;
           }
