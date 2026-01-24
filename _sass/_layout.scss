@@ -226,15 +226,42 @@
 .team {
   .team-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: $spacing-lg;
+    
+    .team-card:nth-child(1),
+    .team-card:nth-child(2) {
+      grid-column: span 3;
+    }
+    
+    .team-card:nth-child(3),
+    .team-card:nth-child(4),
+    .team-card:nth-child(5) {
+      grid-column: span 2;
+    }
     
     @media (max-width: $breakpoint-lg) {
       grid-template-columns: repeat(2, 1fr);
+      
+      .team-card:nth-child(1),
+      .team-card:nth-child(2),
+      .team-card:nth-child(3),
+      .team-card:nth-child(4),
+      .team-card:nth-child(5) {
+        grid-column: span 1;
+      }
     }
     
     @media (max-width: $breakpoint-sm) {
       grid-template-columns: 1fr;
+      
+      .team-card:nth-child(1),
+      .team-card:nth-child(2),
+      .team-card:nth-child(3),
+      .team-card:nth-child(4),
+      .team-card:nth-child(5) {
+        grid-column: span 1;
+      }
     }
   }
   
