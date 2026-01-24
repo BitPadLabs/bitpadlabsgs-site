@@ -344,9 +344,10 @@
   
   .footer-content {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: $spacing-lg;
+    grid-template-columns: auto auto auto auto;
+    gap: $spacing-md;
     margin-bottom: $spacing-lg;
+    align-items: start;
     
     @media (max-width: $breakpoint-md) {
       grid-template-columns: 1fr;
@@ -355,6 +356,8 @@
   }
   
   .footer-logo {
+    text-align: center;
+    
     img {
       height: 60px;
       margin-bottom: $spacing-sm;
@@ -366,21 +369,11 @@
     }
   }
   
-  .footer-links {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: $spacing-md;
-    
-    @media (max-width: $breakpoint-sm) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
   .link-group {
     h4 {
       color: $primary-yellow;
       margin-bottom: $spacing-sm;
-      font-size: 1.125rem;
+      font-size: 1.25rem;
     }
     
     ul {
@@ -401,19 +394,22 @@
     }
   }
   
-  .footer-team {
+  .footer-naics {
+    min-width: 280px;
+    
     h4 {
       color: $primary-yellow;
       margin-bottom: $spacing-sm;
-      font-size: 1.125rem;
+      font-size: 1.25rem;
     }
     
-    .team-member {
+    .naics-item {
       margin-bottom: $spacing-xs;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       
-      .team-member-desc {
+      .naics-desc {
         color: $silver-sage;
+        font-size: 0.85rem;
       }
     }
   }
@@ -428,6 +424,17 @@
     @media (max-width: $breakpoint-md) {
       flex-direction: column;
       text-align: center;
+      
+      p {
+        margin-bottom: $spacing-sm;
+      }
+    }
+    
+    a {
+      color: $primary-yellow;
+    }
+  }
+}
       
       p {
         margin-bottom: $spacing-sm;
