@@ -1,7 +1,7 @@
 - name: Ryan Burke
   role: CEO, Managing Member
-  github: Severswoed
   image: Ryan-BPLGS.jpeg
+  linkedin: https://www.linkedin.com/in/ryan-burke-pmp-rmp-3548b918/
   bio: >-
     With over 15 years of government contracting experience, Ryan leads BitPadLabs Government Solutions
     as Managing Member and CEO. He focuses on growth initiatives, customer acquisition strategies,
@@ -12,6 +12,7 @@
   role: Chief Technology Officer
   github: Severswoed
   image: Chris-BPLGS.JPG
+  linkedin: https://www.linkedin.com/in/cminman/
   bio: >-
     With over 15 years of federal government CIO / IT experience, Chris serves as engineering mentor
     and technical lead for BitPadLabs Government Solutions. He focuses on infrastructure, product strategy,
@@ -20,8 +21,8 @@
 
 - name: Melanie Amerson
   role: Chief Strategy Officer
-  github: melanieamerson
   image: Melanie-BPLGS.JPG
+  linkedin: https://www.linkedin.com/in/melanie-amerson-mba-23a89111/
   bio: >-
     With over 15 years of government contracting experience across OPM and USDA, Melanie drives strategic planning
     and business development for BitPadLabs Government Solutions. She focuses on market expansion,
@@ -30,8 +31,8 @@
 
 - name: Jaime Inman
   role: Chief Operating & Financial Officer
-  github: jaimeinman
   image: Jaime-BPLGS.jpeg
+  linkedin: https://www.linkedin.com/in/jaime-inman-04596a391/
   bio: >-
     Jaime oversees financial operations, budgeting, and fiscal strategy for BitPadLabs Government Solutions.
     She ensures sound financial management and compliance while supporting the company's growth objectives.
@@ -41,6 +42,7 @@
   role: Chief Product Officer
   github: hannahcassels
   image: Hannah-BPLGS.jpeg
+  linkedin: https://www.linkedin.com/in/hannah-cassels-105500270/
   bio: >-
     Hannah leads product vision for BitPadLabs Government Solutions and specializes in full-stack
     development, product ownership, and user-centered design. She drives product strategy
