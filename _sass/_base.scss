@@ -125,6 +125,7 @@ a {
   box-shadow: $shadow-md;
   transition: transform $transition-base, box-shadow $transition-base, border-left $transition-base;
   border-left: 4px solid transparent;
+  overflow: hidden;
   
   &:hover {
     transform: translateY(-5px);
