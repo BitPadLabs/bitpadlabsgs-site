@@ -241,6 +241,7 @@
   .team-card {
     display: flex;
     flex-direction: column;
+    height: 100%;
     
     .team-image {
       height: 300px;
@@ -255,6 +256,9 @@
     
     .team-info {
       padding: $spacing-md;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
       
       h3 {
         margin-bottom: $spacing-xs;
@@ -273,7 +277,8 @@
       }
       
       .social-links {
-        margin-top: $spacing-sm;
+        margin-top: auto;
+        padding-top: $spacing-sm;
         
         a {
           margin-right: $spacing-xs;
