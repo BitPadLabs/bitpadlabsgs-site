@@ -284,6 +284,14 @@
       }
     }
     
+    &:nth-child(1),
+    &:nth-child(2) {
+      .team-image {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    }
+    
     .team-info {
       padding: $spacing-md;
       display: flex;
