@@ -286,10 +286,13 @@
     &:nth-child(1),
     &:nth-child(2) {
       .team-image {
+        background: white;
+        border-radius: 12px;
+        
         img {
           object-fit: contain;
           object-position: center top;
-          border-radius: 12px !important;
+          border-radius: 12px;
         }
       }
     }
