@@ -8,9 +8,9 @@ baseurl: ""
 url: "https://bitpadlabsgs.com"
 
 # Contracting Details
-duns: ""
-uei: ""
-cage: ""
+duns: "144948581"
+uei: "Z6AWKL6J3RV9"
+cage: "19LR5"
 
 # Social
 github_username: BitPadLabs

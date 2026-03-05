@@ -35,9 +35,9 @@
 
 - [x] All pages created (Home, Services, Capabilities, Team, News, Contact, About, Terms, Privacy)
 - [x] NAICS codes updated
-- [x] CAGE Code: 15LW1
-- [x] UEI: WXU7TJ5MQJW4
-- [ ] DUNS number (currently ##)
+- [x] CAGE Code: 19LR5
+- [x] UEI: Z6AWKL6J3RV9
+- [x] DUNS: 144948581
 - [x] Team photos populated
 - [x] Logo assets in place
 - [x] SDVOSB badge added

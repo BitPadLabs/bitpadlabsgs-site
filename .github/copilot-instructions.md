@@ -13,7 +13,6 @@
 - Do NOT claim BPL-GS has contracts, clients, or corporate past performance
 - Do NOT use specific project names (EOS, Project Castle, Fast Lane) - these belong to individual team members' past work
 - Do NOT claim impact metrics or client logos yet
-- CAGE/UEI/DUNS codes are blank - not yet assigned to BPL-GS
 - NAICS codes set to "00000" (Pending)
 
 ### Always Maintain
@@ -181,7 +180,7 @@ Primary: **Veterans Affairs (VA)** modernization
 
 ### Contact Page
 - Email: info@bitpadlabsgs.com
-- Contracting info shows blank CAGE/UEI/DUNS
+- Contracting info in footer: CAGE 19LR5, UEI Z6AWKL6J3RV9, DUNS 144948581
 - "Capability Statement: In development"
 
 ## Placeholder Sections (Future Work)
@@ -231,7 +230,6 @@ Before publishing any changes:
 - [ ] No specific project names (EOS, Castle, Fast Lane)
 - [ ] No BPL-GS contract/client claims
 - [ ] Team expertise framed correctly
-- [ ] CAGE/UEI/DUNS remain blank
 - [ ] No em dashes in content
 - [ ] SDVOSB badge in footer only
 - [ ] Frog branding consistent

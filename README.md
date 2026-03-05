@@ -137,7 +137,8 @@ This site is automatically built and deployed using GitHub Pages and GitHub Acti
 For any questions or inquiries:
 
 - **Email**: info@bitpadlabsgs.com
-- **CAGE Code**: ##
-- **UEI**: ##
+- **CAGE Code**: 19LR5
+- **UEI**: Z6AWKL6J3RV9
+- **DUNS**: 144948581
 
 Last updated: January 21, 2026
